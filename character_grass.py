@@ -57,6 +57,7 @@ while True:
     for degree in range(270, -90, -2):
         clear_canvas_now()
         grass.draw_now(400, 30)
+        
         rad = degree / 360 * 2 * math.pi
         cx = center_x + radius * math.cos(rad)
         cy = center_y + radius * math.sin(rad)
